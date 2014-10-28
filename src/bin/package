@@ -1,0 +1,7 @@
+#!/bin/bash
+
+./gradlew jar
+
+cp ~/HelloWorld-/build/libs/* ~/HelloWorld-/build/tmp/jar
+
+java -jar ~/HelloWorld-/build/tmp/jar/HelloWorld-.jar
